@@ -29,6 +29,23 @@
 	<link rel="manifest" href="site.webmanifest" />
 
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+	<style>
+	table {
+	  font-family: arial, sans-serif;
+	  border-collapse: collapse;
+	  width: 100%;
+	}
+
+	td, th {
+	  border: 1px solid #dddddd;
+	  text-align: left;
+	  padding: 8px;
+	}
+
+	tr:nth-child(even) {
+	  background-color: #dddddd;
+	}
+	</style>
 
 
   	
@@ -52,6 +69,46 @@ Your browser does not support the audio element.
   <div class="text-spin">
     <p><i id="silly">Add some crazy things or easter eggs 🐮<br>Or try to find some...</i></p>
  </div>
+
+<h2>LIST OF EVENTS</h2>
+
+<table>
+  <tr>
+    <th>Event</th>
+    <th>Contact</th>
+    <th>Price</th>
+  </tr>
+  <tr>
+    <td>Vuforia</td>
+    <td>Maria Anders</td>
+    <td>100</td>
+  </tr>
+  <tr>
+    <td>Clash of cars</td>
+    <td>Francisco Chang</td>
+    <td>200</td>
+  </tr>
+  <tr>
+    <td>Paper Presentation</td>
+    <td>Roland Mendel</td>
+    <td>100</td>
+  </tr>
+  <tr>
+    <td>Sherlock</td>
+    <td>Helen Bennett</td>
+    <td>150</td>
+  </tr>
+  <tr>
+    <td>DesignBug</td>
+    <td>Yoshi Tannamuri</td>
+    <td>110</td>
+  </tr>
+  <tr>
+    <td>Run for fun</td>
+    <td>Giovanni Rovelli</td>
+    <td>Free</td>
+  </tr>
+</table>
 
 
 <article>
@@ -93,7 +150,7 @@ Your browser does not support the audio element.
 
 
  <h1>Registration Form</h1>
-Use tab keys to move from one input field to the next.
+Register ASAP or you miss the chance to be part of huge event.
 <form name='registration' onSubmit="return formValidation();">
 <ul>
 <li><label for="userid">User id:</label></li>
